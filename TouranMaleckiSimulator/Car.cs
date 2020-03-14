@@ -10,7 +10,7 @@ namespace TouranMaleckiSimulator
 {
     class Car
     {
-        Image newImage = Image.FromFile("Car.png");
+        public Image newImage = Image.FromFile("Car.png");
         public string ruch;
         public int pozycja;
         public int[] pozycje = new int[4];

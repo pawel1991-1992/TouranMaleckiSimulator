@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.Threading;
 
 namespace TouranMaleckiSimulator
 {
@@ -37,12 +38,14 @@ namespace TouranMaleckiSimulator
         {
             for (i = 0; i < pasy_ruchu.Length; i++)
             {
-                pasy_ruchu[i] = pasy_ruchu[i]+6;
-                if (pasy_ruchu[0] == 0)
+                
+                pasy_ruchu[i] = pasy_ruchu[i]+9;
+                if (pasy_ruchu[0] >= 0)
                 {
                     for (int k = 0; k < pasy_ruchu.Length; k++)
                     {
                         pasy_ruchu[k] = k * odstep - 18;
+                        
                     }
                 }
             }
