@@ -10,12 +10,15 @@ My idea for that game was to make a racing game with many obstacles coming out o
 The car can be driven by direction keys - left or right. User can choose four lanes. Space bar is the boost key that is not available from the beginning of the game.
 
 The user's car looks like that:
+
 ![Car](/TouranMaleckiSimulator/Car.png)
 
 One of the obstacle is police car, looks like that:
+
 ![Police](/TouranMaleckiSimulator/paly.png)
 
 Second obstacle is a cow:
+
 ![Police](/TouranMaleckiSimulator/krowa.png)
 
 The game should last till the end of the song, but still i have some obstacles left to add. 
