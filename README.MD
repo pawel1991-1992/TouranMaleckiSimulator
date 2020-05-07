@@ -5,7 +5,7 @@ This program is a fun racing game with 2D view written in C#
 
 ## Project assumptions and ideas 
 
-My idea for that game was to make a racing game with many obstacles coming out on straight road. Diferent stages of the game are divided more or less by the music - when there are some slower moments in the game, another stage is about to start. During those slower parts a user can read what obstacles he should expect.
+My idea for that game was to make a racing game with many obstacles coming out on straight road. Different stages of the game are divided more or less by the music - when there are some slower moments in the game, another stage is about to start. During those slower parts a user can read what obstacles he should expect.
 
 The car can be driven by direction keys - left or right. User can choose four lanes. Space bar is the boost key that is not available from the beginning of the game.
 
@@ -21,13 +21,15 @@ Second obstacle is a cow:
 
 ![Police](/TouranMaleckiSimulator/krowa.png)
 
+In the code, classes like *Car.cs*, *Barriers.cs*, *Road.cs* are designed for drawing elements like, in turn user's car, obstacles, road. They also handle their functionality. 
+
 The game should last till the end of the song, but still i have some obstacles left to add. 
 
 ## Features
 
-* Simple Menu with three options - Start, Restart and Exit
-* interactive cells that wait for mouse's click to receive chosen letter by user
-* when crossword is completed with correct headwords, program screens a picture-gift as an award
+* The game synchronized more or less with the music
+* Clear menu where user can start or pause the game
+* Instructions appearing on the screen during the game
 
 
 ## Author
